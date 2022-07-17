@@ -1,0 +1,51 @@
+1.For loop;
+var arr=[{"name":"kevin","age":"26","gender":"male"},{"name":"alex","age":"23","gender":"male"}]
+for(var i=0;i<arr.length;i++)
+console.log(arr[i].name+" "+arr[i].age+" "+arr[i].gender);
+
+2.For in loop;
+var arr=[{"name":"zim","age":"29"},{"name":"tovino","age":"34"},{"name":"bills","age":"24"}];
+for(var key in arr) {
+console.log(key,arr[key]);}
+
+
+
+3.Json resume format;
+var arr={
+  "basics": {
+    "name": "Dhinakaran",
+    "email": "dhina8097@gmai.com",
+    "phone": "+91 9080620503",
+    "degree": "B.E",
+    "summary": "A meticulous and organized individual seeking an Entry-level position in the field of Project Management.",
+    "location": {
+      "address": "N0:89,t.h.road,new washermenpet",
+      "postalCode": "600081",
+      "city": "chennai",
+    }
+    ,
+    
+  "education": [
+    {
+      "institution": "Saveetha Engineering College",
+      "area": "Electronics and Instrumentation",
+      "startyear": "2017",
+      "endyear": "2021",
+      "gpa": "7.34",
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Expert"
+    }
+  ],
+  
+}
+
+console.log(arr["languages"]);
+
+
+4.window is the execution context and global object for that context's JavaScript.
+5.document contains the DOM, initialized by parsing HTML.
+6.screen is a small information object about physical screen dimensions.
